@@ -1,42 +1,29 @@
-# COMING SOON
-## everythingdownloader-cli
+# Download Everything
 
-**Download Everything: Files, Videos, Music, Websites, Web Pages**
+A Python script to download various types of content including music from Spotify, videos from YouTube, and web pages. This project utilizes several libraries to handle downloading and processing URLs efficiently.
 
-everythingdownloader-cli is a Python-based command-line tool that allows you to download almost anything from the web efficiently. Whether it's a video, music file, entire website, or just a specific web page, this tool has got you covered.
+## Features
 
-### Features
+- Download music tracks from Spotify.
+- Download videos from YouTube.
+- Download entire web pages as HTML files.
+- Support for multiple input formats (CSV, TXT).
+- Progress tracking during downloads.
+- Customizable output directory.
 
-- **Download Files**: Fetch any file type directly from the web.
-- **Video Downloads**: Supports downloading videos from popular streaming platforms.
-- **Music Downloads**: Easily grab your favorite tracks.
-- **Website Scraping**: Download entire websites for offline viewing.
-- **Web Page Snapshots**: Save individual web pages for reference.
-- **Multi-threaded**: Fast downloads with support for parallel connections.
-- **Custom Output Directories**: Organize your downloads the way you want.
-- **Error Handling**: Built-in mechanisms to retry failed downloads.
-- **Cross-Platform**: Runs on Windows, macOS, and Linux.
+## Requirements
 
-### Installation
+This project requires the following Python packages:
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/everythingdownloader-cli.git
-    ```
+- `beautifulsoup4`
+- `requests`
+- `tqdm`
+- `yt-dlp`
+- `pyfiglet`
+- `keyboard`
+- `spotdl`
 
-2. Navigate to the project directory:
-    ```bash
-    cd everythingdownloader-cli
-    ```
+You can install these dependencies using pip. Simply run:
 
-3. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-### Usage
-
-Basic command to start downloading:
 ```bash
-python everythingdownloader.py --url <URL> --type <file|video|music|website|webpage> --output <directory>
-
+pip install -r requirements.txt

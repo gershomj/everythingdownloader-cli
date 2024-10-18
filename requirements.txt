@@ -1,6 +1,7 @@
-requests
 beautifulsoup4
+requests
 tqdm
-spotdl
 yt-dlp
-datetime
+pyfiglet
+keyboard
+spotdl
