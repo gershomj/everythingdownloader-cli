@@ -1,6 +1,6 @@
 # Download Everything
 
-A Python script to download various types of content including music from Spotify, videos from YouTube, and web pages. This project utilizes several libraries to handle downloading and processing URLs efficiently.
+A Python script to download various types of content including music from Spotify, videos from YouTube, and web pages. This project utilizes several libraries and tools to handle downloading and processing URLs efficiently.
 
 ## Features
 
